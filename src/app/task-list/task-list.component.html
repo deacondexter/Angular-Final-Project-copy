@@ -1,0 +1,11 @@
+<h2>Task List</h2>
+<ul>
+  <h5>Click task to see detailed information</h5>
+  <li *ngFor="let task of tasks">
+    <a [routerLink]="['/details', task.id]">
+      {{task.name}} is a {{task.type}}
+    </a>
+    <button (click)="deleteTask(task.id)">x</button>
+    <a [routerLink]="['/edit', task.id]"><button>edit</button></a>
+  </li>
+</ul>

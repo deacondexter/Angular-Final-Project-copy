@@ -1,0 +1,24 @@
+<h2>Task Details</h2>
+<h5>
+  <div>Task ID: {{ id }}</div>
+  <div>Task Name: {{ taskDetails.name }}</div>
+  <button (click)="deleteTask(taskDetails.id)">x</button>
+  <a [routerLink]="['/edit', taskDetails.id]">
+    <button>edit</button>
+  </a>
+</h5>
+<ul>
+  <ul>
+    <h3>
+      <span class="detail-header">Time to Complete:</span> {{taskDetails.timeToComplete}}</h3>
+  </ul>
+  <ul>
+    <h3>
+      <span class="detail-header">Description:</span> {{taskDetails.description}}</h3>
+  </ul>
+  <ul>
+    <h3>
+      <span class="detail-header">Necessary items needed to complete the task:</span>
+      {{taskDetails.itemsNeededToComplete}}</h3>
+  </ul>
+</ul>

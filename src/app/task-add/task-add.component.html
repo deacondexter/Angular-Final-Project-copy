@@ -1,0 +1,15 @@
+<h2>Task Add</h2>
+Name: <input [(ngModel)]="newTask.name">
+<br>
+Type: <input [(ngModel)]="newTask.type">
+<br>
+Time to Complete:
+<input [(ngModel)]="newTask.timeToComplete">
+<br>
+Description:
+<input [(ngModel)]="newTask.description">
+<br>
+Necessary items needed to complete the task:
+<input [(ngModel)]="newTask.itemsNeededToComplete">
+<br>
+<button (click)="addTask()">Add</button>

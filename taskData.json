@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Eat a Taco!",
+      "type": "Type1",
+      "timeToComplete": "this is taco details1",
+      "description": "this is taco details2",
+      "itemsNeededToComplete": "this is taco details3"
+    },
+    {
+      "name": "Grocery Shop",
+      "type": "Type3!",
+      "id": 2,
+      "timeToComplete": "lasjdflkjas",
+      "description": "lkjaslkdfj",
+      "itemsNeededToComplete": "lkjasflkjasf"
+    }
+  ]
+}
